@@ -47,3 +47,18 @@ import operator
 Sum_Of_Digit = (operator.add(First_Number, Second_Number))
 print("Sum of two digit number are: ", Sum_Of_Digit)
 
+
+# Add two number using lambda function
+add_number = lambda x, y: x + y
+num_1 = 4
+num_2 = 5
+result = add_number(num_1, num_2)
+print("Sum of two digit are: ", result)
+
+
+# Add two number using lambda function with user input
+add_number = lambda x, y: x + y
+num_1 = 4
+num_2 = 6
+result = add_number(num_1, num_2)
+print("Sum of the two digit number are: ", result)
