@@ -43,3 +43,11 @@ number2 = 4
 max = number1 if number1>number2 else number2
 print("Maximum mumber is: ", max)
 
+
+# Maximum of two numbers using sort() method
+a1 = 3
+b1 = 5
+x = [a1,b1]
+x.sort()
+print("Maximum number is: ",x[-1])  
+
