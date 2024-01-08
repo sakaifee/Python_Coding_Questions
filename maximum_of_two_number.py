@@ -35,3 +35,11 @@ num1 = 2
 num2 = 3
 maximum_num = lambda num1,num2:num1 if num1 > num2 else num2
 print("The maximum of these two numbers are: ", maximum_num(num1,num2))
+
+
+# Maximum of two numbers using list comprehension
+number1 = 3
+number2 = 4
+max = number1 if number1>number2 else number2
+print("Maximum mumber is: ", max)
+
